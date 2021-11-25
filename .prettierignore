@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+dist
+coverage
+
+# Ignore HTML files:
+*.html
+
+.gitignore
+.prettierignore
