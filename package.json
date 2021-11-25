@@ -1,0 +1,12 @@
+{
+  "name": "prettier-editorconfig",
+  "version": "1.0.0",
+  "description": "Basic Prettier+EditorConfig configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
+  "license": "MIT"
+}
