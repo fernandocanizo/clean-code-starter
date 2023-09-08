@@ -49,18 +49,20 @@ git branch -M main
 git push -u origin main
 ```
 
+If you prefer, fix `devDependencies` versions. This starter has them all as `*` cause you probably want to start project with the most up to date tools.
+
 Start coding :)
 
 ## What's inside
 
 - [EditorConfig](https://editorconfig.org/)
-  Helps maintain consistent coding style.
+  Helps maintain consistent coding style inside the editor.
 
 - [Standardjs](https://standardjs.com/) linting
   Fixes your code.
 
-```
-npm run lint-fix
-```
+- [Husky](https://github.com/typicode/husky)
+  Let's you define git hooks easily and make the part of the repository.
 
-
+- [lint-staged](https://github.com/okonet/lint-staged)
+  Just lint what's about to be commited.
