@@ -15,7 +15,11 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "standard": "*"
+  },
+  "lint-staged": {
+    "*.js": "npx standard --fix"
   },
   "standard": {
     "ignore": [],
