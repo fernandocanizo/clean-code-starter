@@ -14,8 +14,8 @@
   "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
+    "husky": "*",
+    "lint-staged": "*",
     "standard": "*"
   },
   "lint-staged": {
