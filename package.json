@@ -1,15 +1,24 @@
 {
-  "name": "prettier-editorconfig",
-  "version": "1.0.0",
-  "description": "Basic Prettier+EditorConfig configuration",
+  "name": "clean-code-starter",
+  "version": "2.0.0",
+  "description": "A starter repo with preconfigured code quality tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-fix": "standard --fix",
+    "test": "standard"
   },
-  "keywords": [],
+  "keywords": ["code quality"],
   "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
   "license": "MIT",
+  "dependencies": {
+  },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "standard": "*"
+  },
+  "standard": {
+    "ignore": [
+    ],
+    "globals": [
+    ]
   }
 }
