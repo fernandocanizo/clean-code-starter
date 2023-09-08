@@ -22,7 +22,7 @@ I'll just depict a possible way:
 ```shell
 git clone --depth 1 git@github.com:fernandocanizo/clean-code-starter.git your-project
 cd your-project
-rm -f LICENCE README.md
+rm -f LICENCE README.md delete-me.js
 ```
 
 Edit `package.json` accordingly to your project. Be sure to change:

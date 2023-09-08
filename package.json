@@ -5,20 +5,20 @@
   "main": "index.js",
   "scripts": {
     "lint-fix": "standard --fix",
-    "test": "standard"
+    "test": "standard",
+    "prepare": "husky install"
   },
-  "keywords": ["code quality"],
+  "keywords": [
+    "code quality"
+  ],
   "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
   "license": "MIT",
-  "dependencies": {
-  },
   "devDependencies": {
+    "husky": "^8.0.3",
     "standard": "*"
   },
   "standard": {
-    "ignore": [
-    ],
-    "globals": [
-    ]
+    "ignore": [],
+    "globals": []
   }
 }
