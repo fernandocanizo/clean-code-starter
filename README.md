@@ -15,39 +15,21 @@ A starter repo with preconfigured code quality tools to:
 
 ## Usage
 
-There are several ways to make this repo your starting scaffold, you can download it as a `.zip` file and copy what you need into your project, you can clone it and copy the files you need into your project, or do any pick-and-edit variation you find more appealing.
+This is a repository template, hit the button up there which says "Use this template" -> "Create new repository", and you're set up.
 
-I'll just depict a possible way:
+Then you should remove unwanted files, most probably:
 
 ```shell
-git clone --depth 1 git@github.com:fernandocanizo/clean-code-starter.git your-project
-cd your-project
 rm -f LICENCE README.md delete-me.js
 ```
 
-Edit `package.json` accordingly to your project. Be sure to change:
+Also, edit `package.json` accordingly to your project. Be sure to change:
 - name
 - version
 - description
 - keywords
 - author
 - license
-
-Then amend first commit:
-
-```shell
-git add .
-git commit --amend -m 'Start project'
-```
-
-And point the repository to your main repo, assuming GitHub:
-
-```shell
-git remote remove origin # to stop pointing to the scaffolder
-git remote add origin git@github.com:your-user/your-project.git
-git branch -M main
-git push -u origin main
-```
 
 If you prefer, fix `devDependencies` versions. This starter has them all as `*` cause you probably want to start project with the most up to date tools.
 
