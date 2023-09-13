@@ -31,7 +31,11 @@ Also, edit `package.json` accordingly to your project. Be sure to change:
 - author
 - license
 
-If you prefer, fix `devDependencies` versions. This starter has them all as `*` cause you probably want to start project with the most up to date tools.
+You may want to fix `devDependencies` versions. Currently I decided to set them all as `*` version, in order to always start a new project with the most up to date tools. In order to do so you can automatically fix dependencies with:
+
+```shell
+pnpm up
+```
 
 Start coding :)
 
