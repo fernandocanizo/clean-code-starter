@@ -24,5 +24,8 @@
   "standard": {
     "ignore": [],
     "globals": []
+  },
+  "dependencies": {
+    "typescript": "*"
   }
 }
