@@ -55,3 +55,6 @@ Start coding :)
 
 - [TypeScript](https://www.typescriptlang.org/)
   Add strong typing to Javascript plus a whole bunch of cool benefits.
+
+- [Jest](https://jestjs.io/)
+  For testing

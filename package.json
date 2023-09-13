@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint-fix": "standard --fix",
-    "test": "standard",
+    "test": "jest --passWithNoTests",
     "prepare": "husky install"
   },
   "keywords": [
@@ -15,11 +15,12 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "*",
+    "jest": "*",
     "lint-staged": "*",
     "standard": "*"
   },
   "lint-staged": {
-    "*.js": "npx standard --fix"
+    "*.js": "npm run lint-fix"
   },
   "standard": {
     "ignore": [],
