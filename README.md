@@ -52,3 +52,6 @@ Start coding :)
 
 - [lint-staged](https://github.com/okonet/lint-staged)
   Just lint what's about to be commited.
+
+- [TypeScript](https://www.typescriptlang.org/)
+  Add strong typing to Javascript plus a whole bunch of cool benefits.
