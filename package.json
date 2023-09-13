@@ -14,6 +14,7 @@
   "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "*",
     "husky": "*",
     "jest": "*",
     "lint-staged": "*",
