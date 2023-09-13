@@ -1,1 +1,4 @@
 node_modules
+
+# typescript emitted files
+dist
