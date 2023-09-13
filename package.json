@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "A starter repo with preconfigured code quality tools",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint-fix": "standard --fix",
     "test": "jest --passWithNoTests",
